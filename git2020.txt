@@ -4,7 +4,7 @@ GIT cheat sheet (for NEMO)
 git intro, including pull request from a branch
 ===============================================
 
-- getting NEMO:
+- getting NEMO directly:
 
        git clone https://github.com/teuben/nemo
 
@@ -12,7 +12,7 @@ git intro, including pull request from a branch
 
        git clone https://github.com/YOUR_GITHUB_NAME/nemo
 
-- useful settings for your ~/.gitconfig file (edit it manually, or used these git commands)
+- useful settings for your ~/.gitconfig file (edit it manually, or use these git commands)
 
   git config --global user.name  "Mona Lisa"
   git config --global user.email "mona@lisa.com"
