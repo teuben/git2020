@@ -1,5 +1,5 @@
-UMD student work progress "NEMO 2020"
--------------------------------------
+GIT cheat sheet (for NEMO)
+--------------------------
 
 git intro, including pull request from a branch
 ===============================================
