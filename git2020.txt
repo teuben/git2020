@@ -3,13 +3,14 @@ GIT cheat sheet (for NEMO)
 
 git intro, including pull request from a branch
 ===============================================
+
 - getting NEMO:
 
-  git clone https://github.com/teuben/nemo
+       git clone https://github.com/teuben/nemo
 
   or get it from your own fork (recommended)
 
-  git clone https://github.com/YOUR_GITHUB_NAME/nemo
+       git clone https://github.com/YOUR_GITHUB_NAME/nemo
 
 - useful settings for your ~/.gitconfig file (edit it manually, or used these git commands)
 
@@ -19,7 +20,9 @@ git intro, including pull request from a branch
 
 - in case you didn't get NEMO from your own github created fork, you will need to
   switch around your git origin and upstream, such that origin is now yours
-  and the upstream is mine. The example here is for the user 'astroumd'
+  and the upstream is mine. The example here is for the user 'astroumd'.
+  This situation happens a lot for me. I clone a repo, and then realize I should
+  have forked, clone from the fork, branch it, and submit pull requests...
 
   git remote rename origin upstream
   git remote add    origin https://github.com/astroumd/nemo
